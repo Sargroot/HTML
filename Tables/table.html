@@ -5,36 +5,31 @@
 </head>
 <body>
 <table border="2">
-<tr>
-<th>one</th>
-<th>two</th>
-<th>one</th>
-<th>two</th>
-</tr>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>1</td>
-<td>2</td>
-</tr>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>1</td>
-<td>2</td>
-</tr>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>1</td>
-<td>2</td>
-</tr>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>1</td>
-<td>2</td>
-</tr>
+<caption> Product Table </caption>
+<thead>
+  <tr>
+    <th scope="col"> Product Type </th>
+    <th scope="col"> Product Name </th>
+    <th scope="col"> Product Price </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row" rowspan="2"> Electronics </th>
+    <td> POCO F6 </td>
+    <td> 20000 </td>
+  </tr>
+  <tr>
+    <td> ASUS TUF </td>
+    <td> 70000</td>
+  </tr>
+  <tfoot>
+  <tr>
+    <th scope="row" colspan="2"> TOTAL </th>
+    <td> 90000 </td>
+  </tr>
+  </tfoot>
+</tbody>
 </Table>
 </body>
 </html>
