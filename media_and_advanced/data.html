@@ -9,7 +9,7 @@
             let a = dd.getAttribute("data-");
             let b = dd.id
             let c = dd.getAttribute("name");
-            alert("The "+b+" is known for "+a+" "+c);
+            alert("The "+b+" is a "+a+" "+c);
         }
         function hello2(hel){
             let x = hel.id;
@@ -24,8 +24,8 @@
     <p>Click on the element to know about it</p>
 
     <ol>
-        <li onclick="hello(this)" name="Asus tuf" id="Asus" data-="is a laptop">Asus</li>
-        <li onclick="hello(this)" name="Dell XP" id="Dell" data-="is a computer">Dell</li>
+        <li onclick="hello(this)" name="manufacturer" id="Asus" data-="Laptop">Asus</li>
+        <li onclick="hello(this)" name="manufacturer'" id="Dell" data-="Laptop">Dell</li>
     </ol>
 
     <form>
