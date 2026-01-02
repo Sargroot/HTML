@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA on-Click</title>
+    <script>
+        function one(x){
+            let a = x.getAttribute("data");
+            let b= x.getAttribute("data1");
+            alert("Dail : "+a+" "+b+".");
+        }
+    </script>
+</head>
+<body>
+    <h2>DATA about</h2>
+    <p>Click on the element to know about it</p>
+    <ul>    
+    <li onclick="one(this)" data1="This number can be used in emergency cases in USA" data="911">help</li></ul>
+
+    <p onclick="one(this)" data1="This number can be used in emergency cases in INDIA" data="108">call</p>
+
+    
+</body>
+</html>
